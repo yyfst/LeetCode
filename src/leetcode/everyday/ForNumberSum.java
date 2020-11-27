@@ -13,12 +13,7 @@ public class ForNumberSum {
         for (int a : A) {
             for (int b : B) {
                 int sum = a + b;
-                if (sumMap.containsKey(sum)) {
-                    int cnt = sumMap.get(sum);
-                    sumMap.put(sum, cnt + 1);
-                } else {
-                    sumMap.put(sum, 1);
-                }
+                sumMap.put(sum, sumMap.getOrDefault(sum,0)+1);
             }
         }
 
