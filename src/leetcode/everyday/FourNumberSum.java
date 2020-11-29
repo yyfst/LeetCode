@@ -7,7 +7,7 @@ import java.util.Map;
  * 454. 四数相 II
  * https://leetcode-cn.com/problems/4sum-ii/
  */
-public class ForNumberSum {
+public class FourNumberSum {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> sumMap = new HashMap<>();
         for (int a : A) {

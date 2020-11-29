@@ -3,7 +3,7 @@
 ## 454. 四数相加 II
 
 * 地址：https://leetcode-cn.com/problems/4sum-ii/
-* `Class: leetcode.everyday.ForNumberSum`
+* `Class: leetcode.everyday.FourNumberSum`
 
 ----------------
 * 思路：
